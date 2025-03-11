@@ -35,6 +35,9 @@ function elementDikhao() {
   for (let i = 0; i < todoArray.length; i++) {
     let { id, todoText } = todoArray[i];
     let element = document.createElement("div");
+
+    element.classList.add("todo-child")
+
     element.innerHTML = `<span contenteditable="False" class="task">${todoText}</span><button class="edit">Edit</button><button class="delete">Delete</button>`;
 
     // select buttons --------------
