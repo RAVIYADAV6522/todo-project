@@ -1,43 +1,67 @@
-.upper {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  gap: 5px;
-  background-color: aqua;
-  height: 150px;
-  width: 350px;
-  margin-top: 50px;
-
-}
-
-.todo-list {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-
-.todo-child {
-  display: flex;
-  justify-content: space-evenly;
-  background-color: blueviolet;
-  width: 250px;
-  height: 40px;
-  gap: 10px;
-  margin-top: 10px;
-}
-
-.task {
-  color: white;
-  font-size: 30px;
-}
-
-
-.main {
+body {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 50px;
+  font-size: 20px;
+  background-color: plum;
+}
+
+.upper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100vw;
+  /* background-color: aqua; */
+  margin-top: 50px;
+}
+
+.upper input {
+  width: 40%;
+  height: 2.5rem;
+  border: 4px dotted blue;
+}
+
+.upper button {
+  width: 18%;
+  height: 2.5rem;
+  border: 4px dotted pink;
+}
+
+.lower {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  /* background-color: blueviolet; */
+  width: 100vw;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.todo-child {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  border: 4px solid greenyellow;
+  margin-top: 5px;
+  padding: 5px 5px;
+  
+}
+
+.delete {
+  background-color: red;
+  color: wheat;
+}
+
+.edit {
+  background-color: aqua;
+  color: darkmagenta;
+}
+
+.task {
+  color: ;
 }
